@@ -1,14 +1,15 @@
 import {create} from 'zustand'
 
-type conversationType ={
+export type conversationType ={
     id: string;
     fullName: string;
     profilePic: string
 }
-type MessageType = {
+export type MessageType = {
     id: string;
     body: string;
     senderId: string;
+    createdAt : string;
 
 }
 
