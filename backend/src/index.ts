@@ -18,8 +18,8 @@ app.use("/api/auth",authRoutes)
 app.use("/api/message",messageRoutes
 
 )
-app.listen(5000, () => {
-    console.log("Server is running on port 5000")
+app.listen(8000, () => {
+    console.log("Server is running on port 8000")
 })
 
 //Todo: Add socket.io to the server

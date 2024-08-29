@@ -1,4 +1,5 @@
-import { DUMMY_CONVERSATIONS } from "../../dummy_data/dummy";
+
+import { DUMMY_CONVERSATIONS } from "../../_ui_design/dummy_data/dummy";
 import Conversation from "./Conversation";
 
 const Conversations = () => {

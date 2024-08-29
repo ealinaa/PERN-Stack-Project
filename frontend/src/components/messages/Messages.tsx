@@ -1,4 +1,5 @@
-import { DUMMY_MESSAGES } from "../../dummy_data/dummy";
+
+import { DUMMY_MESSAGES } from "../../_ui_design/dummy_data/dummy";
 import Message from "./Message";
 
 const Messages = () => {
