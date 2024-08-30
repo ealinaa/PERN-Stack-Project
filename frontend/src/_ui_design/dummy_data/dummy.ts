@@ -11,12 +11,12 @@ export const DUMMY_CONVERSATIONS = [
 		profilePic: "https://avatar.iran.liara.run/public/girl?username=gitathapa",
 		emoji: "👻",
 	},
-	// {
-	// 	id: 3,
-	// 	fullName: "Alice",
-	// 	profilePic: "https://avatar.iran.liara.run/public/girl?username=alice",
-	// 	emoji: "🦇",
-	// },
+	{
+		id: 3,
+		fullName: "Suresh Thapa",
+		profilePic: "https://avatar.iran.liara.run/public/boy?username=sureshthapa",
+		emoji: "🦇",
+	},
 	// {
 	// 	id: 4,
 	// 	fullName: "Bob",
