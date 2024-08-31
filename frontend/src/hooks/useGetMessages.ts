@@ -8,7 +8,7 @@ const useGetMessages = () => {
 
   useEffect(() => {
     const getMessages = async () => {
-      if (!selectedConversation) return; // says that if the conversation is null it will return nothing and get out of this function
+      if (!selectedConversation) return;
       setLoading(true);
       setMessages([]);
       try {

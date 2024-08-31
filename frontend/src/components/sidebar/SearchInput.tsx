@@ -1,7 +1,7 @@
 import { Search } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
-import useConversation, { conversationType } from "../../zustand/useConversation";
+import useConversation from "../../zustand/useConversation";
 import useGetConversations from "../../hooks/useGetConversations";
 
 const SearchInput = () => {
@@ -15,7 +15,7 @@ const SearchInput = () => {
     if (search.length < 3) {
       return toast.error("Search term must be atleast 3 characters long");
     }
-    const conversation = conversations.find((c: conversationType) =>
+    const conversation = conversations.find((c: ConversationType) =>
       c.fullName.toLowerCase().includes(search.toLowerCase())
     );
 

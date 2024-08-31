@@ -16,7 +16,7 @@ const useListenMessages = () => {
     });
     return () => {
       socket?.off("newMessage");
-    }; // unmounts this function its a clean up function
+    }; 
   }, [socket, messages, setMessages]);
 };
 
